@@ -1,24 +1,16 @@
-import logo from './logo.svg';
+import React, {useState, useContext} from 'react'
+import ServicesContext from './Context/ServicesContext';
+import UseServices from './Hooks/use-services';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <ServicesContext.Provider value={UseServices()}>
+   <div>
+     <p>Hello</p>
+   </div>
+  </ServicesContext.Provider>
+
   );
 }
 
