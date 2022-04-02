@@ -1,0 +1,29 @@
+.service-btn{
+    width: 100pt !important;
+    height: 100pt !important;
+    border-radius: 21pt;
+}
+.blue-purple{
+    background: linear-gradient(#66B0FE, #9866FE);
+    filter: drop-shadow(0 10pt 10pt #66B0FE54);
+}
+.pink-red{
+    background: linear-gradient(#FE49F6, #FE4974);
+    filter: drop-shadow(0 10pt 10pt #FE49F654);
+}
+.yellow-lime{
+    background: linear-gradient(#FEDF17, #A2FE17);
+    filter: drop-shadow(0 10pt 10pt #FEE11754);
+}
+.green-blue{
+    background: linear-gradient(#16CF8B, #16B6CF);
+    filter: drop-shadow(0 10pt 10pt #16CF6B54);
+}
+.orange-yellow{
+    background: linear-gradient(#FE9E18, #FEDF18);
+    filter: drop-shadow(0 10pt 10pt #FE9E1854);
+}
+
+svg{
+    color: white;
+}
