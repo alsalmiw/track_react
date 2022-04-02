@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="78.125" viewBox="0 0 85 78.125">
+  <defs>
+    <filter id="car-solid" x="0" y="0" width="85" height="78.125" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#car-solid)">
+    <path id="car-solid-2" data-name="car-solid" d="M4.255,49.7l3.78-10.8A10.309,10.309,0,0,1,17.768,32H37.232a10.312,10.312,0,0,1,9.732,6.906l3.781,10.8A6.888,6.888,0,0,1,55,56.063V76.688a3.434,3.434,0,0,1-3.437,3.438H48.125a3.434,3.434,0,0,1-3.437-3.437V71.531H10.313v5.156a3.436,3.436,0,0,1-3.437,3.438H3.438A3.436,3.436,0,0,1,0,76.688V56.063A6.881,6.881,0,0,1,4.255,49.7Zm7.465-.516H43.28l-2.8-8.014a3.44,3.44,0,0,0-3.244-2.3H17.768a3.44,3.44,0,0,0-3.244,2.3Zm-1.407,6.875A3.438,3.438,0,1,0,13.75,59.5,3.436,3.436,0,0,0,10.313,56.063Zm34.375,6.875A3.438,3.438,0,1,0,41.25,59.5,3.434,3.434,0,0,0,44.688,62.938Z" transform="translate(10 -22)" fill="#fff"/>
+  </g>
+</svg>

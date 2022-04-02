@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="81.563" viewBox="0 0 85 81.563">
+  <defs>
+    <filter id="briefcase-medical-solid" x="0" y="0" width="85" height="81.563" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#briefcase-medical-solid)">
+    <path id="briefcase-medical-solid-2" data-name="briefcase-medical-solid" d="M49.844,10.313H41.25V5.156A5.158,5.158,0,0,0,36.094,0H18.906A5.158,5.158,0,0,0,13.75,5.156v5.156H5.156A5.158,5.158,0,0,0,0,15.469V46.406a5.158,5.158,0,0,0,5.156,5.156H49.844A5.158,5.158,0,0,0,55,46.406V15.469A5.158,5.158,0,0,0,49.844,10.313ZM18.906,5.156H36.094v5.156H18.906ZM39.531,33.73a1.719,1.719,0,0,1-1.719,1.719h-5.8v5.8a1.7,1.7,0,0,1-1.622,1.719H24.8a1.719,1.719,0,0,1-1.719-1.719v-5.7h-5.9a1.719,1.719,0,0,1-1.719-1.719V28.241a1.719,1.719,0,0,1,1.719-1.719h5.7v-5.9a1.719,1.719,0,0,1,1.719-1.719H30.2a1.639,1.639,0,0,1,1.622,1.719v5.8h5.994a1.719,1.719,0,0,1,1.719,1.719Z" transform="translate(10 10)" fill="#fff"/>
+  </g>
+</svg>

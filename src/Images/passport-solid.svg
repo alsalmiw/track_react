@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78.125" height="85" viewBox="0 0 78.125 85">
+  <defs>
+    <filter id="passport-solid" x="0" y="0" width="78.125" height="85" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#passport-solid)">
+    <path id="passport-solid-2" data-name="passport-solid" d="M13.922,22.344a10.293,10.293,0,0,0,5.72,7.56,24.614,24.614,0,0,1-1.509-7.56Zm0-3.437h4.2a24.4,24.4,0,0,1,1.517-7.56A10.341,10.341,0,0,0,13.922,18.906Zm10.141,11.9C24.9,30,26.3,27.1,26.576,22.344H21.538C21.839,27.1,23.235,30,24.063,30.809Zm4.415-19.465A24.153,24.153,0,0,1,30,18.906h4.2A10.329,10.329,0,0,0,28.478,11.344ZM41.25,0H6.875A6.874,6.874,0,0,0,0,6.875v41.25A6.874,6.874,0,0,0,6.875,55H41.25a6.9,6.9,0,0,0,6.875-6.875V6.875A6.9,6.9,0,0,0,41.25,0ZM36.094,44.688H12.031a1.719,1.719,0,0,1,0-3.437H36.094a1.719,1.719,0,0,1,0,3.438ZM24.063,34.375a13.75,13.75,0,1,1,13.75-13.75A13.742,13.742,0,0,1,24.063,34.375Zm4.415-4.469a10.3,10.3,0,0,0,5.72-7.56h-4.2A23.922,23.922,0,0,1,28.478,29.906Zm-6.929-11h5.036c-.3-4.748-1.684-7.648-2.522-8.459C23.235,11.258,21.828,14.158,21.549,18.906Z" transform="translate(10 10)" fill="#fff"/>
+  </g>
+</svg>

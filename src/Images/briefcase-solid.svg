@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="81.563" viewBox="0 0 85 81.563">
+  <defs>
+    <filter id="briefcase-solid" x="0" y="0" width="85" height="81.563" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#briefcase-solid)">
+    <path id="briefcase-solid-2" data-name="briefcase-solid" d="M34.375,36.094a1.718,1.718,0,0,1-1.719,1.719H22.344a1.724,1.724,0,0,1-1.719-1.719V30.938H0V46.406a5.287,5.287,0,0,0,5.156,5.156H49.844A5.288,5.288,0,0,0,55,46.406V30.938H34.375ZM49.844,10.313H41.25V5.156A5.287,5.287,0,0,0,36.094,0H18.906A5.287,5.287,0,0,0,13.75,5.156v5.156H5.156A5.287,5.287,0,0,0,0,15.469V27.5H55V15.469A5.287,5.287,0,0,0,49.844,10.313Zm-13.75,0H18.906V5.156H36.094Z" transform="translate(10 10)" fill="#fff"/>
+  </g>
+</svg>

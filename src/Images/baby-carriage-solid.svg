@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="83.981" viewBox="0 0 85 83.981">
+  <defs>
+    <filter id="baby-carriage-solid" x="0" y="0" width="85" height="83.981" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#baby-carriage-solid)">
+    <path id="baby-carriage-solid-2" data-name="baby-carriage-solid" d="M27.4,29.093H.015A24.045,24.045,0,0,1,10.633,9.983a3.12,3.12,0,0,1,4.288.947ZM41.25,25.656a6.881,6.881,0,0,1,6.875-6.875h3.438a3.438,3.438,0,0,1,0,6.875H48.125v6.875a18.059,18.059,0,0,1-1.837,7.9,20.707,20.707,0,0,1-5.21,6.692,24.809,24.809,0,0,1-7.81,4.469,27.864,27.864,0,0,1-9.3,1.568,27.58,27.58,0,0,1-9.109-1.568,24.8,24.8,0,0,1-7.808-4.469,20.816,20.816,0,0,1-5.216-6.692A18.119,18.119,0,0,1,0,32.531H41.25ZM3.341,58.312A5.22,5.22,0,0,1,8.5,53.156a5.156,5.156,0,0,1,0,10.313A5.22,5.22,0,0,1,3.341,58.312Zm41.347,0a5.156,5.156,0,1,1-5.156-5.156A5.158,5.158,0,0,1,44.688,58.312Z" transform="translate(10 0.51)" fill="#fff"/>
+  </g>
+</svg>

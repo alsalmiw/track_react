@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84.997" height="85" viewBox="0 0 84.997 85">
+  <defs>
+    <filter id="gavel-solid" x="0" y="0" width="84.997" height="85" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#gavel-solid)">
+    <path id="gavel-solid-2" data-name="gavel-solid" d="M55.022,23.235a2.562,2.562,0,0,0-.755-1.819l-2.435-2.425a2.526,2.526,0,0,0-1.729-.755,2.361,2.361,0,0,0-1.729.755l-.6.6L35.429,7.442l.6-.6a2.526,2.526,0,0,0,.755-1.729,2.36,2.36,0,0,0-.755-1.729L33.6.949A2.156,2.156,0,0,0,31.787,0a2.546,2.546,0,0,0-1.809.755L16.587,14.126a2.605,2.605,0,0,0-.752,1.826,2.553,2.553,0,0,0,.755,1.82l2.43,2.43a2.526,2.526,0,0,0,1.729.755,2.214,2.214,0,0,0,1.729-.755l.6-.6L35.233,31.747l-.6.6a2.526,2.526,0,0,0-.755,1.729,2.36,2.36,0,0,0,.755,1.729l2.43,2.43a2.57,2.57,0,0,0,3.639,0L54.072,24.855A1.64,1.64,0,0,0,55.022,23.235ZM24.493,25.577l-6.273,6.37a3.436,3.436,0,0,0-4.866,0L1.032,44.269a3.435,3.435,0,0,0,0,4.86l4.861,4.861a3.428,3.428,0,0,0,4.858,0L23.072,41.672a3.435,3.435,0,0,0,0-4.86l6.277-6.277Z" transform="translate(9.97 10)" fill="#fff"/>
+  </g>
+</svg>
