@@ -1,0 +1,25 @@
+.navLinkTxt{
+    margin-right: 30px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none;
+    font-size: 2.5rem !important;
+}
+
+.footerBg{
+    background-color: #3D3D3D;
+}
+
+.calLogo{
+    height: 70px;
+    width: 72.16px;
+}
+
+.footerTxt{
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 3%;
+    line-height: 20px;
+}
