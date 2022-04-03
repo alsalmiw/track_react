@@ -15,7 +15,6 @@ export default function NavbarComponent() {
               <img src={logo}/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
               <Nav className="">
                 <Nav.Link href="#home" className="navLinkTxt ">Services</Nav.Link>

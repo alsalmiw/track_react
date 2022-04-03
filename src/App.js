@@ -4,6 +4,7 @@ import UseServices from './Hooks/use-services';
 import ServicesPage from './Pages/ServicesPage';
 import NavbarComponent from './Components/NavbarComponent';
 import FooterComponent from './Components/FooterComponent';
+import SponsorsPage from './Pages/SponsorsPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -14,6 +15,7 @@ function App() {
      <NavbarComponent/>
      <p>Hello</p>
      <ServicesPage />
+     <SponsorsPage />
      <FooterComponent />
    </div>
   </ServicesContext.Provider>
