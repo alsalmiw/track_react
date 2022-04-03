@@ -31,23 +31,19 @@
 
 .sponsorImg{
     width: 100%;
-}
-.tacoBellImg{
-    /* height: 106.5px; */
-}
-.phinellsLogo{
-    /* max-height: 109.5px;
-    object-fit: contain; */
+    /* max-height: 109.5px; */
+    display:block; 
+    margin: auto;
 }
 
-/* .calaverasLogo{
-    max-width: 136.36px !important;
-    max-height: 110px;
-} */
+.sierraLogo{
+    width: 110%;
+}
+
 
 .dignityLogo{
-   /* width: 120%;
-   margin-top:15%; */
+   width: 120%;
+   margin-top:10%;
 }
 
 .sponsorRow{
