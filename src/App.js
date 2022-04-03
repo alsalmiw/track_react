@@ -11,13 +11,12 @@ import './App.css';
 function App() {
   return (
    <ServicesContext.Provider value={UseServices()}>
-   <div>
+   
      <NavbarComponent/>
-     <p>Hello</p>
      <ServicesPage />
      <SponsorsPage />
      <FooterComponent />
-   </div>
+   
   </ServicesContext.Provider>
 
   );

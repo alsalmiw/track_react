@@ -1,9 +1,27 @@
 .services-container{
     background-color: #F0F1F3;
+    display: flex;
+    justify-content: center;
 }
+/* .services-md-container{
+    width: 80% !important;
+} */
 .title{
     color: #404040;
     font-size: 26pt;
     font-weight: bold;
     font-family: Proxima Nova;
+}
+
+.search-bar{
+    border-radius:0 25pt 25pt 0 !important;
+    border: none !important;
+    padding-left: 0 !important;
+}
+
+.search-icon{
+    background-color: white !important;
+    border-radius:25pt 0 0 25pt  !important;
+    border: none !important;
+    padding-right: 10px !important;
 }
