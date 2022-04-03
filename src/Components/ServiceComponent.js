@@ -11,12 +11,32 @@ export default function ServiceComponent({service, idx}) {
    const [btnClass, setBtnClass]=useState('')
 
     useEffect(()=>{
-     setServiceIcon(service.icon) 
      btnStyle()
       },[])
+    
+      const icons = new Map([
+        ['faGavel', faGavel],
+        ['faBriefcase', faBriefcase],
+        ['faBabyCarriage', faBabyCarriage],
+        ['faLandmark', faLandmark],
+        ['faCar',faCar],
+        ['faSchool',faSchool],
+        ['faPiggyBank',faPiggyBank],
+        ['faBurger',faBurger],
+        ['faBriefcaseMedical',faBriefcaseMedical],
+        ['faFileSignature',faFileSignature],
+        ['faBuildingShield',faBuildingShield],
+        ['faPersonMilitaryPointing',faPersonMilitaryPointing],
+        ['faSignHanging',faSignHanging],
+        ['faPassport',faPassport],
+        ['faWallet',faWallet],
+        ['faLightbulb',faLightbulb],
+        ['faEnvelopesBulk',faEnvelopesBulk]
+      ])
       
-    let index=0;
+    
     const btnStyle = () => {
+        let index=0;
         let colors = ["service-btn blue-purple", 'service-btn pink-red', "service-btn yellow-lime", "service-btn green-blue" , "service-btn orange-yellow" ]
         index = idx%colors.length
         setBtnClass(colors[index]) 
@@ -30,7 +50,7 @@ export default function ServiceComponent({service, idx}) {
   return (
     <div key={idx} className='service-container' onClick={handleShowModal}>
         <div className={btnClass}>
-        <FontAwesomeIcon icon={faGavel}/>
+        <FontAwesomeIcon icon={icons.get(service.icon)}/>
         </div>
         <div className='service-title'><p>{service.serviceName}</p></div>
     </div>

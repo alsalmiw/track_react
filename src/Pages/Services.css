@@ -1,11 +1,14 @@
 .services-container{
     background-color: #F0F1F3;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
-/* .services-md-container{
-    width: 80% !important;
-} */
+
+.btn-services-container{
+    display: flex;
+    justify-content: start;
+}
+
 .title{
     color: #404040;
     font-size: 26pt;
@@ -24,4 +27,10 @@
     border-radius:25pt 0 0 25pt  !important;
     border: none !important;
     padding-right: 10px !important;
+}
+
+
+@media screen and (max-width: 660px) {
+    
+   
 }

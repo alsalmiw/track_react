@@ -76,7 +76,7 @@ export default function ServicesPage() {
             </InputGroup>
             </Form>
           </Row>
-          <Row>
+          <Row className="btn-services-contain">
           {
             servicesArr.map((service, idx)=> {
               return(

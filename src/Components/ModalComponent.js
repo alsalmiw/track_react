@@ -1,5 +1,6 @@
 import React, {useState, useContext} from 'react'
 import { Modal } from 'react-bootstrap'
+import './modal.css'
 import UseServices from "../Hooks/use-services";
 import ServicesContext from '../Context/ServicesContext'
 

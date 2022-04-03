@@ -1,9 +1,9 @@
 .service-container{
-    width: 100pt !important;
+    width: 16.666% !important;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px;
+
 }
 .service-btn{
     width: 100pt !important;
@@ -43,4 +43,25 @@
 
 .service-title{
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .service-container{
+        width: 25% !important;
+    }
+    .service-btn{
+        width: 80pt !important;
+        height: 80pt !important;
+        border-radius: 15pt;
+    }
+    .service-btn svg{
+        width: 40pt;
+        height: 40pt;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .service-container{
+        width: 33.333% !important;
+    }
 }
