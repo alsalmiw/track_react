@@ -3,9 +3,9 @@
     display: flex;
     justify-content: center;
 }
-.services-md-container{
+/* .services-md-container{
     width: 80% !important;
-}
+} */
 .title{
     color: #404040;
     font-size: 26pt;

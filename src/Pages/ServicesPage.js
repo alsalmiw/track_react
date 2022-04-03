@@ -36,8 +36,8 @@ export default function ServicesPage() {
 
   return (
     <Container className="services-container" fluid>
-      <Row className="services-md-container">
-        <Col >
+      <Row className="d-flex justify-content-center p-3">
+        <Col md={9} >
           <Row>
             <h2>Services</h2>
           </Row>
