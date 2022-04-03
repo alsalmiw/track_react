@@ -9,7 +9,6 @@ function App() {
   return (
    <ServicesContext.Provider value={UseServices()}>
    <div>
-     <p>Hello</p>
      <ServicesPage />
    </div>
   </ServicesContext.Provider>
