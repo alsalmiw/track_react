@@ -1,5 +1,10 @@
 .services-container{
     background-color: #F0F1F3;
+    display: flex;
+    justify-content: center;
+}
+.services-md-container{
+    width: 80% !important;
 }
 .title{
     color: #404040;

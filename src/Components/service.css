@@ -1,7 +1,17 @@
+.service-container{
+    width: 100pt !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
 .service-btn{
     width: 100pt !important;
     height: 100pt !important;
     border-radius: 21pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .blue-purple{
     background: linear-gradient(#66B0FE, #9866FE);
@@ -24,6 +34,9 @@
     filter: drop-shadow(0 10pt 10pt #FE9E1854);
 }
 
-svg{
+.service-btn svg{
     color: white;
+    width: 55pt;
+    height: 55pt;
+    text-align: center;
 }
