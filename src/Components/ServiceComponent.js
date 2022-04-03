@@ -28,7 +28,7 @@ export default function ServiceComponent(props) {
         <div className={btnClass}>
         <FontAwesomeIcon icon={faGavel}/>
         </div>
-        <div><p>{service.serviceName}</p></div>
+        <div className='service-title'><p>{service.serviceName}</p></div>
     </div>
   )
 }
