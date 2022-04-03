@@ -1,34 +1,55 @@
-/* .sponsorTxt{
-    margin-bottom: 0px !important;
-} */
-
-.calComLogo{
-    width: 136px !important;
-    height: 100%;
+/* .calComLogo{
+    max-width: 136pt !important;
+    max-height: 109.5pt;
 }
 
 .dignityLogo{
-    width: 217.69px !important;
-    height: 61.82px;
+    max-width: 217.69pt !important;
+    max-height: 61.82pt;
     margin-top: 2.5% !important;
 }
 
 .phinellsLogo{
-    width: 115px !important;
-    height: 109.5px;
+    max-width: 115pt !important;
+    max-height: 109.5pt;
 }
 
 .tacoBellLogo{
-    width: 160.56px !important;
-    height: 109.5px;
+    max-width: 194.56pt !important;
+    max-height: 109.5pt;
 }
 
 .sierraLogo{
-    width: 219px !important;
-    height: 87.6px;
+    max-width: 219pt !important;
+    max-height: 87.6pt;
 }
 
 .calaverasLogo{
-    width: 136.36px !important;
-    height: 110px;
+    max-width: 136.36pt !important;
+    max-height: 110pt;
+} */
+
+.sponsorImg{
+    width: 100%;
+}
+.tacoBellImg{
+    /* height: 106.5px; */
+}
+.phinellsLogo{
+    /* max-height: 109.5px;
+    object-fit: contain; */
+}
+
+/* .calaverasLogo{
+    max-width: 136.36px !important;
+    max-height: 110px;
+} */
+
+.dignityLogo{
+   /* width: 120%;
+   margin-top:15%; */
+}
+
+.sponsorRow{
+    align-items: center;
 }
