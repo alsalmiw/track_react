@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import "./Services.css";
+import "./services.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import ServiceComponent from "../Components/ServiceComponent";
@@ -11,28 +11,44 @@ import {
   FormControl,
   InputGroup,
 } from "react-bootstrap";
-import {GetAllServices} from '../Services/DataService'
+import {GetAllServices, GetSearchResult} from '../Services/DataService'
 import UseServices from "../Hooks/use-services";
 import ServicesContext from '../Context/ServicesContext'
+import ModalComponent from "../Components/ModalComponent";
 
 export default function ServicesPage() {
 
   let {servicesArr, setServicesArr} = useContext(ServicesContext)
+  const [searchTerm, setSearchTerm] = useState('')
 
   useEffect(()=>{
     fetchServices()
   },[])
 
-
-
-  const fetchServices = async() => {
+   const fetchServices = async() => {
     let fetchedServices = await GetAllServices()
-    if(fetchedServices.length!=0)
-    {
+    if(fetchedServices.length!=0){
       setServicesArr(fetchedServices)
     }
   }
 
+  const fetchSearch = async() => {
+    let search = await GetSearchResult(searchTerm)
+    if(search.length!=0){
+      setServicesArr(search)
+    }    
+  }
+
+  const handleSubmitSearch=(e)=>{
+    e.preventDefault();
+    console.log(searchTerm)
+    if(searchTerm.length!=0){
+        fetchSearch()
+      }
+    else{
+        fetchServices()
+    }
+  }
 
   return (
     <Container className="services-container" fluid>
@@ -45,18 +61,22 @@ export default function ServicesPage() {
             <p>Select a service to view more information.</p>
           </Row>
           <Row>
+            <Form onSubmit={handleSubmitSearch}>
             <InputGroup className="mb-3 search-bar"> 
               <InputGroup.Text className="search-icon">
                 <FontAwesomeIcon icon={faSearch} />
               </InputGroup.Text>
               <FormControl
                 className="search-bar"
+                type="text"
                 placeholder="Search for services... "
                 aria-label="Search"
+                onChange={(e)=> setSearchTerm(e.target.value)}
               />
             </InputGroup>
+            </Form>
           </Row>
-          <Row>
+          <Row className="btn-services-contain">
           {
             servicesArr.map((service, idx)=> {
               return(
@@ -67,6 +87,7 @@ export default function ServicesPage() {
           </Row>
         </Col>
       </Row>
+      <ModalComponent />
     </Container>
   );
 }

@@ -1,0 +1,14 @@
+.modal-content {
+    border: 1px solid #BCBCBC !important;
+    border-radius: 12pt !important;
+}
+.modal-header {
+    border-bottom: none !important;
+}
+.modal {
+    display: flex !important;
+    align-items: center !important;
+}
+
+
+
