@@ -49,3 +49,43 @@
 .sponsorRow{
     align-items: center;
 }
+
+@media screen and (max-width: 768px){
+    .sponsorImg{
+        width: 80%;
+        display:block; 
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .dignityLogo{
+        width: 100%;
+        margin-top:10%;
+     }
+
+     .sierraLogo{
+        width: 90%;
+    }
+    .phinellsLogo{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .sponsorImg{
+        width: 50%;
+        display:block; 
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .dignityLogo{
+        width: 70%;
+        margin-top:10%;
+     }
+
+     .sierraLogo{
+        width: 60%;
+    }
+    .phinellsLogo{
+        width: 50%;
+    }
+}

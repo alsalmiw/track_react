@@ -13,24 +13,24 @@ export default function SponsorsPage() {
       <Col xs={12} md={10}lg={9}>
         <p className="m-0"><strong>Sponsors</strong></p>
         <p className="">Thank you to our sponsors!</p>
-        <Row xs={1} md={2} lg={6} className="mt-2 sponsorRow justify-content-center">
-          <Col xs={5} md={3}>
+        <Row xs={1} md={3} lg={6} className="mt-2 sponsorRow justify-content-center">
+          <Col>
             <img className="sponsorImg" src={CalaverasCommunityLogo}/>
           </Col>
-          <Col xs={8} md={5}>
-            <img className="sponsorImg dignityLogo img-fluid" src={DignityHealthLogo}/>
+          <Col>
+            <img className="sponsorImg dignityLogo" src={DignityHealthLogo}/>
           </Col>
-          <Col xs={6} md={3}>
-            <img className="sponsorImg img-fluid" src={PhinellsLogo}/>
+          <Col>
+            <img className="sponsorImg phinellsLogo" src={PhinellsLogo}/>
           </Col>
-          <Col xs={7} md={3}>
-            <img className="sponsorImg img-fluid" src={TacoBellLogo}/>
+          <Col>
+            <img className="sponsorImg" src={TacoBellLogo}/>
           </Col>
-          <Col xs={7} md={4}>
-            <img className="sponsorImg sierraLogo img-fluid" src={SierraPacificLogo}/>
+          <Col>
+            <img className="sponsorImg sierraLogo" src={SierraPacificLogo}/>
           </Col>
-          <Col xs={6} md={3}>
-            <img className="sponsorImg img-fluid" src={CalaverasLogo}/>
+          <Col>
+            <img className="sponsorImg" src={CalaverasLogo}/>
           </Col>
         </Row>
       </Col>
