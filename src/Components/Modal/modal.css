@@ -1,0 +1,20 @@
+.modal-content {
+    border: 1px solid #BCBCBC !important;
+    border-radius: 12pt !important;
+
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+@media screen and (min-width: 1200px){
+    .modal-dialog {
+        /* max-width: 80% !important; */
+    }
+    }
+    
+
+
+
+
