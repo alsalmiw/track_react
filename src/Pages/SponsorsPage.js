@@ -5,7 +5,7 @@ import DignityHealthLogo from '../Images/Dignity Health Logo@3x.png'
 import PhinellsLogo from '../Images/Pinnells Logo@3x.png'
 import TacoBellLogo from '../Images/editedTB.png'
 import SierraPacificLogo from '../Images/Sierra Pacific Logo@3x.png'
-import CalaverasLogo from '../Images/Calaveras Logo@3x.png'
+import GurnickLogo from '../Images/Gurnick Academy@3x.png'
 import './Sponsors.css'
 export default function SponsorsPage() {
   return (
@@ -13,7 +13,7 @@ export default function SponsorsPage() {
       <Col xs={12} md={10}lg={9}>
         <p className="m-0"><strong>Sponsors</strong></p>
         <p className="">Thank you to our sponsors!</p>
-        <Row xs={1} md={3} lg={6} className="mt-2 sponsorRow justify-content-center">
+        <Row xs={1} sm={3} md={3} lg={6} className="mt-2 sponsorRow justify-content-center">
           <Col>
             <img className="sponsorImg" src={CalaverasCommunityLogo}/>
           </Col>
@@ -30,7 +30,7 @@ export default function SponsorsPage() {
             <img className="sponsorImg sierraLogo" src={SierraPacificLogo}/>
           </Col>
           <Col>
-            <img className="sponsorImg" src={CalaverasLogo}/>
+            <img className="sponsorImg" src={GurnickLogo}/>
           </Col>
         </Row>
       </Col>

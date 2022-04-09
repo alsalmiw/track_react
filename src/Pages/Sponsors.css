@@ -50,23 +50,24 @@
     align-items: center;
 }
 
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 999px){
     .sponsorImg{
-        width: 80%;
+        width: 60%;
         display:block; 
         margin: auto;
         margin-bottom: 30px;
     }
     .dignityLogo{
-        width: 100%;
+        width: 80%;
         margin-top:10%;
      }
 
      .sierraLogo{
-        width: 90%;
+        width: 70%;
     }
     .phinellsLogo{
-        width: 70%;
+        width: 50%;
     }
 }
 
@@ -90,7 +91,7 @@
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 760px){
     .sponsorImg{
         width: 50%;
         display:block; 

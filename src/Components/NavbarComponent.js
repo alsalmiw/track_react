@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav, Row, Col } from "react-bootstrap";
-import logo from '../Images/Logo.svg'
+import logo from '../Images/Logo1.svg'
 import "./Components.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ServicesPage from "../Pages/ServicesPage";
@@ -25,8 +25,8 @@ export default function NavbarComponent() {
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                 <Nav className="">
-                  <HashLink  to="/#services" className="navLinkTxt ">Services</HashLink>
-                  <HashLink  to="/#sponsors" className="">Sponsors</HashLink>
+                  <HashLink  to="/#services" className="navLinkTxt marginRight">Services</HashLink>
+                  <HashLink  to="/#sponsors" className="navLinkTxt">Sponsors</HashLink>
                 </Nav>
               </Navbar.Collapse>
             </Container>
