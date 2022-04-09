@@ -9,7 +9,7 @@ import CalaverasLogo from '../Images/Calaveras Logo@3x.png'
 import './Sponsors.css'
 export default function SponsorsPage() {
   return (
-    <Row className="justify-content-center mt-5 mb-5">
+    <Row className="justify-content-center mt-5 mb-5" id="sponsors">
       <Col xs={12} md={10}lg={9}>
         <p className="m-0"><strong>Sponsors</strong></p>
         <p className="">Thank you to our sponsors!</p>

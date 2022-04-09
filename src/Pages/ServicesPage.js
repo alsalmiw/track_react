@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import "./services.css";
+import "./Services.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import ServiceComponent from "../Components/ServiceComponent";
@@ -51,7 +51,7 @@ export default function ServicesPage() {
   }
 
   return (
-    <Container className="services-container" fluid>
+    <Container className="services-container" fluid id="services">
       <Row className="d-flex justify-content-center p-3">
         <Col md={9} >
           <Row>
