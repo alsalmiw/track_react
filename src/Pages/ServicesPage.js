@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import "./Services.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import ServiceComponent from "../Components/ServiceComponent";
+import ServiceComponent from "../Components/Service/ServiceComponent";
 import {
   Container,
   Row,
@@ -14,7 +14,7 @@ import {
 import {GetAllServices, GetSearchResult} from '../Services/DataService'
 import UseServices from "../Hooks/use-services";
 import ServicesContext from '../Context/ServicesContext'
-import ModalComponent from "../Components/ModalComponent";
+import ModalComponent from "../Components/Modal/ModalComponent";
 
 export default function ServicesPage() {
 
