@@ -45,8 +45,11 @@
     text-align: center;
 }
 .service-title p{
+    font-size:15px;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: bold;
+    line-height:1;
+    margin-top: 10px;
     
 }
 
