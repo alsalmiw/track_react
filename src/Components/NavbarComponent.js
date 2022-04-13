@@ -34,7 +34,7 @@ export default function NavbarComponent() {
         </Col>
       </Row>
       <Routes>
-        <Route  id="services" element={<ServicesPage />} />
+        <Route path="/" id="services" element={<ServicesPage />} />
         <Route  id="sponsors" element={<SponsorsPage />} />
       </Routes>
     </BrowserRouter>
