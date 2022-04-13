@@ -58,7 +58,7 @@ export default function ServicesPage() {
             <h2>Services</h2>
           </Row>
           <Row>
-            <p>Select a service to view more information.</p>
+            <h3>Select a service to view more information.</h3>
           </Row>
           <Row>
             <Form onSubmit={handleSubmitSearch}>
