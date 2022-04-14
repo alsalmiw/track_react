@@ -10,5 +10,9 @@
     align-items: center !important;
 }
 
+.modal-body{
+    max-height: 450px;
+}
+
 
 
