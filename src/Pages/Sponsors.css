@@ -65,6 +65,9 @@
 }
 
 @media screen and (max-width: 760px){
+    .boldTxt{
+        margin-left: 8%;
+    }
     .sponsorImg{
         width: 50%;
         display:block; 
