@@ -51,9 +51,8 @@ export default function ServicesPage() {
   }
 
   return (
-    <Container className="services-container" fluid id="services">
-      <Row className="d-flex justify-content-center p-3">
-        <Col md={9} >
+    <Row className="services-container d-flex justify-content-center p-3" fluid id="services">
+        <Col xs={12} md={10}lg={9}>
           <Row>
             <h2>Services</h2>
           </Row>
@@ -86,8 +85,8 @@ export default function ServicesPage() {
             
           </Row>
         </Col>
-      </Row>
+     
       <ModalComponent />
-    </Container>
+    </Row>
   );
 }
