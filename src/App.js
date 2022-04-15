@@ -7,16 +7,17 @@ import FooterComponent from './Components/FooterComponent';
 import SponsorsPage from './Pages/SponsorsPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { Container } from 'react-bootstrap';
 
 function App() {
   return (
    <ServicesContext.Provider value={UseServices()}>
-   
+   <Container fluid className='m-0 p-0'>
      <NavbarComponent/>
-     <ServicesPage />
+     {/* <ServicesPage /> */}
      <SponsorsPage />
      <FooterComponent />
-   
+   </Container>
   </ServicesContext.Provider>
 
   );

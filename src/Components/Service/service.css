@@ -1,10 +1,8 @@
 .service-container{
-    width: 16.666% !important;
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
-
+    
 }
 .service-btn{
     width: 100pt !important;
@@ -14,6 +12,13 @@
     align-items: center;
     justify-content: center;
 }
+.service-btn-container{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .blue-purple{
     background: linear-gradient(#66B0FE, #9866FE);
     filter: drop-shadow(0 10pt 10pt #66B0FE54);
@@ -55,15 +60,15 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .service-container{
+    /* .service-container{
         width: 20% !important;
-    }
+    } */
 }
 
 @media screen and (max-width: 970px) {
-    .service-container{
+    /* .service-container{
         width: 25% !important;
-    }
+    } */
     .service-btn{
         width: 80pt !important;
         height: 80pt !important;
@@ -76,8 +81,8 @@
 }
 
 @media screen and (max-width: 668px) {
-    .service-container{
+    /* .service-container{
         width: 33.333% !important;
-    }
+    } */
 }
 

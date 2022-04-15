@@ -3,6 +3,7 @@ import './service.css'
 import UseServices from "../../Hooks/use-services";
 import ServicesContext from '../../Context/ServicesContext'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Col} from "react-bootstrap";
 import {faGavel, faBriefcase, faBabyCarriage, faLandmark, faCar, faSchool, faPiggyBank, faBurger, faBriefcaseMedical, faFileSignature, faBuildingShield, faPersonMilitaryPointing, faSignHanging, faPassport, faWallet, faLightbulb, faEnvelopesBulk } from '@fortawesome/free-solid-svg-icons';
 
 export default function ServiceComponent({service, idx}) {
@@ -48,11 +49,13 @@ export default function ServiceComponent({service, idx}) {
     }
 
   return (
-    <div key={idx} className='service-container' onClick={handleShowModal}>
+    <Col xs={4} lg={3} xl={2} key={idx} className='service-container'>
+    <div className="service-btn-container" onClick={handleShowModal}>
         <div className={btnClass}>
         <FontAwesomeIcon icon={icons.get(service.icon)}/>
         </div>
         <div className='service-title'><p>{service.serviceName}</p></div>
     </div>
+    </Col>
   )
 }
