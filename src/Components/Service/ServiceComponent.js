@@ -49,7 +49,7 @@ export default function ServiceComponent({service, idx}) {
     }
 
   return (
-    <Col xs={4} lg={3} xl={2} key={idx} className='service-container'>
+    <Col key={idx} className='service-container'>
     <div className="service-btn-container" onClick={handleShowModal}>
         <div className={btnClass}>
         <FontAwesomeIcon icon={icons.get(service.icon)}/>

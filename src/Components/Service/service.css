@@ -56,7 +56,7 @@
     font-weight: bold;
     line-height:1;
     margin-top: 10px;
-    
+    width: 100pt !important;
 }
 
 @media screen and (max-width: 1300px) {
@@ -80,6 +80,9 @@
     .service-btn svg{
         width: 40pt;
         height: 40pt;
+    }
+    .service-title p{
+        width: 80pt !important;
     }
    
 }
