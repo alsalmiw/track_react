@@ -12,7 +12,7 @@ import { Container } from 'react-bootstrap';
 function App() {
   return (
    <ServicesContext.Provider value={UseServices()}>
-   <Container fluid className='m-0 p-0'>
+   <Container fluid className='containerFluid m-0 p-0'>
      <NavbarComponent/>
      <ServicesPage />
      <SponsorsPage />
