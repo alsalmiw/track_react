@@ -14,7 +14,7 @@ export default function ModalComponent() {
     
   
   return (
-    <Modal show={show} onHide={handleClose}>
+    <Modal  show={show} onHide={handleClose} className="" centered >
     <Modal.Header closeButton>
       <Modal.Title>{serviceObj.serviceName}</Modal.Title>
     </Modal.Header>

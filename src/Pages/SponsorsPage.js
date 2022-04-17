@@ -11,8 +11,8 @@ export default function SponsorsPage() {
   return (
     <Row className="justify-content-center mt-5 mb-5" id="sponsors">
       <Col xs={12} md={10}lg={9}>
-        <p className="m-0 boldTxt">Sponsors</p>
-        <p className="">Thank you to our sponsors!</p>
+        <h2 className="ms-md-0 boldTxt ms-4 ">Sponsors</h2>
+        <h3 className="ms-md-0 ms-4">Thank you to our sponsors!</h3>
         <Row xs={1} sm={3} md={3} lg={6} className="mt-2 sponsorRow justify-content-center">
           <Col>
             <img className="sponsorImg" src={CalaverasCommunityLogo}/>

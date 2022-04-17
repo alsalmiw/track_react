@@ -8,6 +8,14 @@
     border-bottom: none !important;
 }
 
+.modal-body {
+    /* max-height: 165px; */
+    max-height: 500px;
+    overflow: auto;
+  }
+
+
+
 @media screen and (min-width: 1200px){
     .modal-dialog {
         /* max-width: 80% !important; */

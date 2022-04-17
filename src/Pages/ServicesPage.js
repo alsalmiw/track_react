@@ -54,7 +54,7 @@ export default function ServicesPage() {
     <Row className="services-container d-flex justify-content-center p-3" fluid id="services">
         <Col xs={12} md={10}lg={9}>
           <Row>
-            <h2>Services</h2>
+            <h2 className="bold">Services</h2>
           </Row>
           <Row>
             <h3>Select a service to view more information.</h3>
