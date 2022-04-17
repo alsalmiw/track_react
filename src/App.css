@@ -19,3 +19,8 @@ h3{
         font-size: 1.25rem;
     }
 }
+
+.container-fluid{
+    height: 100vh;
+    width: 100vw;
+}
