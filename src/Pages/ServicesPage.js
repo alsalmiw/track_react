@@ -51,15 +51,13 @@ export default function ServicesPage() {
   }
 
   return (
-    <Row className="services-container d-flex justify-content-center p-3" fluid id="services">
+    <Row className="services-container d-flex justify-content-center p-3" id="services">
         <Col xs={12} md={10}lg={9}>
-          <Row>
+          <Row className="mx-md-2 mx-5">
             <h2 className="bold">Services</h2>
+            <h3 className="">Select a service to view more information.</h3>
           </Row>
-          <Row>
-            <h3>Select a service to view more information.</h3>
-          </Row>
-          <Row>
+          <Row className="mx-md-2 mx-5">
             <Form onSubmit={handleSubmitSearch}>
             <InputGroup className="mb-3 search-bar"> 
               <InputGroup.Text className="search-icon">
@@ -75,7 +73,7 @@ export default function ServicesPage() {
             </InputGroup>
             </Form>
           </Row>
-          <Row className="btn-services-contain">
+          <Row xs={3} md={4} lg={4} xl={6} className="btn-services-contain p-3">
           {
             servicesArr.map((service, idx)=> {
               return(

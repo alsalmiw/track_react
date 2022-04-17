@@ -14,7 +14,7 @@ function App() {
    <ServicesContext.Provider value={UseServices()}>
    <Container fluid className='m-0 p-0'>
      <NavbarComponent/>
-     {/* <ServicesPage /> */}
+     <ServicesPage />
      <SponsorsPage />
      <FooterComponent />
    </Container>

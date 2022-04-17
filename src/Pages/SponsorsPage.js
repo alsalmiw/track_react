@@ -9,32 +9,33 @@ import GurnickLogo from '../Images/Gurnick Academy@3x.png'
 import './Sponsors.css'
 export default function SponsorsPage() {
   return (
-    <Row className="justify-content-center mt-5 mb-5" id="sponsors">
+    <Row className="justify-content-center mt-5 mb-5 d-flex p-3" id="sponsors">
       <Col xs={12} md={10}lg={9}>
-        <h2 className="ms-md-0 boldTxt ms-4 ">Sponsors</h2>
-        <h3 className="ms-md-0 ms-4">Thank you to our sponsors!</h3>
-        <Row xs={1} sm={3} md={3} lg={6} className="mt-2 sponsorRow justify-content-center">
+        <Row className="mx-md-2 mx-5">
+          <h2 className="boldTxt ">Sponsors</h2>
+          <h3 className="">Thank you to our sponsors!</h3>
+        </Row>
+        <Row xs={1} sm={3} md={3} lg={6} className="mt-2 mx-2 sponsorRow justify-content-center">
           <Col>
-            <img className="sponsorImg" src={CalaverasCommunityLogo}/>
+            <img className="sponsorImg" alt="Calaveras Community Logo" src={CalaverasCommunityLogo}/>
           </Col>
           <Col>
-            <img className="sponsorImg dignityLogo" src={DignityHealthLogo}/>
+            <img className="sponsorImg dignityLogo" alt="Dignity Health Logo"  src={DignityHealthLogo}/>
           </Col>
           <Col>
-            <img className="sponsorImg phinellsLogo" src={PhinellsLogo}/>
+            <img className="sponsorImg phinellsLogo" alt="Phinells Logo" src={PhinellsLogo}/>
           </Col>
           <Col>
-            <img className="sponsorImg" src={TacoBellLogo}/>
+            <img className="sponsorImg" alt="Taco Bell Logo" src={TacoBellLogo}/>
           </Col>
           <Col>
-            <img className="sponsorImg sierraLogo" src={SierraPacificLogo}/>
+            <img className="sponsorImg sierraLogo" alt="Sierra Pacific Logo" src={SierraPacificLogo}/>
           </Col>
           <Col>
-            <img className="sponsorImg" src={GurnickLogo}/>
+            <img className="sponsorImg" alt="Gunrick Logo" src={GurnickLogo}/>
           </Col>
         </Row>
       </Col>
-
     </Row>
   )
 }

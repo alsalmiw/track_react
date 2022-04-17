@@ -1,10 +1,18 @@
 .service-container{
-    width: 16.666% !important;
+    /* width: 16.666% !important; */
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
+
+.service-btn-container{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .service-btn{
     width: 100pt !important;
     height: 100pt !important;
@@ -43,12 +51,13 @@
 
 .service-title{
     text-align: center;
+    width: 100pt !important;
 }
 
 @media screen and (max-width: 768px) {
-    .service-container{
+    /* .service-container{
         width: 25% !important;
-    }
+    } */
     .service-btn{
         width: 80pt !important;
         height: 80pt !important;
@@ -58,10 +67,13 @@
         width: 40pt;
         height: 40pt;
     }
+    .service-title{
+        width: 80pt !important;
+    }
 }
-
+/* 
 @media screen and (max-width: 668px) {
     .service-container{
         width: 33.333% !important;
     }
-}
+} */

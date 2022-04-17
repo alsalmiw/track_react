@@ -16,11 +16,11 @@ export default function NavbarComponent() {
     <>
     <BrowserRouter>
       <Row className="justify-content-center">
-        <Col xs={12} md={9}>
+        <Col xs={12} md={10}lg={9}>
           <Navbar bg="" expand="lg">
-            <Container fluid>
+            <Container>
               <Navbar.Brand >
-                <img src={logo}/>
+                <img alt="On The Right Track Logo" src={logo}/>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
