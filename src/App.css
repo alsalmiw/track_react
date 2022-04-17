@@ -2,7 +2,8 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    max-width: 100% !important;
 }
 
 h2{
