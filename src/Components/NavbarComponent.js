@@ -15,7 +15,7 @@ export default function NavbarComponent() {
   return (
     <>
     <BrowserRouter>
-      <Row className="justify-content-center">
+      <Row className="justify-content-center hiddenOverflow">
         <Col xs={12} md={10}lg={9}>
           <Navbar bg="" expand="lg">
             <Container>

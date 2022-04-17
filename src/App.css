@@ -21,6 +21,11 @@ h3{
 }
 
 .containerFluid{
-    height: 100vh !important;
-    width: 100vw !important;
+    /* height: 100vh !important; */
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
+.hiddenOverflow{
+    overflow-x: hidden !important;
 }

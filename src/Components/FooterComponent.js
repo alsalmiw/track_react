@@ -5,7 +5,7 @@ import "./Components.css"
 
 export default function FooterComponent() {
   return (
-    <Row className="footerBg pt-4 pb-3 justify-content-center">
+    <Row className="footerBg pt-4 pb-3 justify-content-center hiddenOverflow">
       <Col xs={12} md={10} lg={9}>
         <Row className="d-flex mx-lg-2 mx-5">
           <Col xs={12} md={7} lg={5}className="d-flex">

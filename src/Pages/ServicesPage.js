@@ -51,7 +51,7 @@ export default function ServicesPage() {
   }
 
   return (
-    <Row className="services-container d-flex justify-content-center p-3" id="services">
+    <Row className="services-container d-flex justify-content-center p-3 hiddenOverflow" id="services">
         <Col xs={12} md={10}lg={9}>
           <Row className="mx-md-2 mx-5">
             <h2 className="bold">Services</h2>

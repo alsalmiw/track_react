@@ -9,7 +9,7 @@ import GurnickLogo from '../Images/Gurnick Academy@3x.png'
 import './Sponsors.css'
 export default function SponsorsPage() {
   return (
-    <Row className="justify-content-center mt-5 mb-5 d-flex p-3" id="sponsors">
+    <Row className="justify-content-center mt-5 mb-5 d-flex p-3 hiddenOverflow" id="sponsors">
       <Col xs={12} md={10}lg={9}>
         <Row className="mx-md-2 mx-5">
           <h2 className="boldTxt ">Sponsors</h2>
