@@ -18,7 +18,7 @@ export default function NavbarComponent() {
       <Row className="justify-content-center hiddenOverflow">
         <Col xs={12} md={10}lg={9}>
           <Navbar bg="" expand="lg">
-            <Container>
+            <Container className="p-2">
               <Navbar.Brand >
                 <img alt="On The Right Track Logo" src={logo}/>
               </Navbar.Brand>
