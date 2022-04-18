@@ -9,13 +9,13 @@ import GurnickLogo from '../Images/Gurnick Academy@3x.png'
 import './Sponsors.css'
 export default function SponsorsPage() {
   return (
-    <Row className="justify-content-center mt-5 mb-5 d-flex p-3 hiddenOverflow" id="sponsors">
+    <Row className="justify-content-center mt-3 mb-3 d-flex hiddenOverflow" id="sponsors">
       <Col xs={12} md={10}lg={9}>
         <Row className="mx-md-2 mx-2">
           <h2 className="boldTxt ">Sponsors</h2>
           <h3 className="">Thank you to our sponsors!</h3>
         </Row>
-        <Row xs={1} sm={3} md={3} lg={6} className="mt-2 mx-2 sponsorRow justify-content-center">
+        <Row xs={1} sm={3} md={3} lg={6} className="mt-2 mx-2 p-3 sponsorRow justify-content-center">
           <Col>
             <img className="sponsorImg" alt="Calaveras Community Logo" src={CalaverasCommunityLogo}/>
           </Col>
