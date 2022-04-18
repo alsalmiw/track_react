@@ -56,7 +56,7 @@
     font-weight: bold;
     line-height:1;
     margin-top: 10px;
-    width: 100pt !important;
+    width: 105pt !important;
 }
 
 @media screen and (max-width: 1300px) {
@@ -82,7 +82,8 @@
         height: 40pt;
     }
     .service-title p{
-        width: 80pt !important;
+        font-size:12px;
+        width: 95pt !important;
     }
    
 }

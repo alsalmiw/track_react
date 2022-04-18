@@ -57,7 +57,7 @@ export default function ServicesPage() {
             <h2 className="bold">Services</h2>
             <h3 className="">Select a service to view more information.</h3>
           </Row>
-          <Row className="mx-md-2 mx-5">
+          <Row className="mx-lg-1 mx-2">
             <Form onSubmit={handleSubmitSearch}>
             <InputGroup className="mb-3 search-bar"> 
               <InputGroup.Text className="search-icon">
