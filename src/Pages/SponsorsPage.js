@@ -17,22 +17,22 @@ export default function SponsorsPage() {
         </Row>
         <Row xs={1} sm={3} md={3} lg={6} className="mt-2 mx-2 p-3 sponsorRow justify-content-center">
           <Col>
-            <img className="sponsorImg" alt="Calaveras Community Logo" src={CalaverasCommunityLogo}/>
+            <img className="sponsorImg img-fluid" alt="Calaveras Community Logo" src={CalaverasCommunityLogo}/>
           </Col>
           <Col>
-            <img className="sponsorImg dignityLogo" alt="Dignity Health Logo"  src={DignityHealthLogo}/>
+            <img className="sponsorImg img-fluid " alt="Dignity Health Logo"  src={DignityHealthLogo}/>
           </Col>
           <Col>
-            <img className="sponsorImg phinellsLogo" alt="Phinells Logo" src={PhinellsLogo}/>
+            <img className="sponsorImg img-fluid " alt="Phinells Logo" src={PhinellsLogo}/>
           </Col>
           <Col>
-            <img className="sponsorImg" alt="Taco Bell Logo" src={TacoBellLogo}/>
+            <img className="sponsorImg img-fluid " alt="Taco Bell Logo" src={TacoBellLogo}/>
           </Col>
           <Col>
-            <img className="sponsorImg sierraLogo" alt="Sierra Pacific Logo" src={SierraPacificLogo}/>
+            <img className="sponsorImg img-fluid " alt="Sierra Pacific Logo" src={SierraPacificLogo}/>
           </Col>
           <Col>
-            <img className="sponsorImg" alt="Gunrick Logo" src={GurnickLogo}/>
+            <img className="sponsorImg img-fluid" alt="Gunrick Logo" src={GurnickLogo}/>
           </Col>
         </Row>
       </Col>
