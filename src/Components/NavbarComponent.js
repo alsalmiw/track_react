@@ -15,10 +15,9 @@ export default function NavbarComponent() {
   return (
     <>
     <BrowserRouter>
-      <Row className="justify-content-center hiddenOverflow">
-        <Col xs={12} md={10}lg={9}>
-          <Navbar bg="" expand="lg">
-            <Container className="p-2">
+      <Row className="justify-content-center hiddenOverflow mx-1 mx-sm-2">
+        <Col xs={12} md={10}lg={9} >
+          <Navbar bg="" expand="lg">              
               <Navbar.Brand >
                 <img alt="On The Right Track Logo" src={logo}/>
               </Navbar.Brand>
@@ -29,7 +28,6 @@ export default function NavbarComponent() {
                   <HashLink  to="/#sponsors" className="navLinkTxt">Sponsors</HashLink>
                 </Nav>
               </Navbar.Collapse>
-            </Container>
           </Navbar>
         </Col>
       </Row>
