@@ -60,18 +60,6 @@
 }
 
 @media screen and (max-width: 1300px) {
-    /* .service-container{
-        width: 20% !important;
-    }
-    .service-title p{
-        font-size:10px;   
-    }
-}
-
-@media screen and (max-width: 970px) {
-    /* .service-container{
-        width: 25% !important;
-    } */
     .service-btn{
         width: 80pt !important;
         height: 80pt !important;
@@ -86,11 +74,5 @@
         width: 95pt !important;
     }
    
-}
-
-@media screen and (max-width: 668px) {
-    /* .service-container{
-        width: 33.333% !important;
-    } */
 }
 

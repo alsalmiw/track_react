@@ -7,12 +7,11 @@ import ServicesContext from '../../Context/ServicesContext';
 
 export default function ModalComponent() {
 
-    let{servicesArr, setServicesArr, show, setShow, serviceObj} = useContext(ServicesContext)
+    let{show, setShow, serviceObj} = useContext(ServicesContext)
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    
-  
+
   return (
     <Modal  show={show} onHide={handleClose} className="" centered >
     <Modal.Header closeButton>

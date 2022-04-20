@@ -1,7 +1,5 @@
 .services-container{
     background-color: #F0F1F3;
-    /* display: flex;
-    justify-content: center; */
 }
 
 .btn-services-container{
@@ -31,9 +29,4 @@
 
 .bold{
     font-weight: bold;
-}
-
-@media screen and (max-width: 660px) {
-    
-   
 }

@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import ServiceComponent from "../Components/Service/ServiceComponent";
 import {
-  Container,
   Row,
   Col,
   Form,

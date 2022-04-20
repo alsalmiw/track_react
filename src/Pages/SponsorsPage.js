@@ -1,5 +1,5 @@
 import React from 'react'
-import {Row, Col, Container} from 'react-bootstrap'
+import {Row, Col} from 'react-bootstrap'
 import CalaverasCommunityLogo from '../Images/Calaveras Community Foundation Logo@3x.png'
 import DignityHealthLogo from '../Images/Dignity Health Logo@3x.png'
 import PhinellsLogo from '../Images/Pinnells Logo@3x.png'
