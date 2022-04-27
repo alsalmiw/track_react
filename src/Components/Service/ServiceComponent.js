@@ -4,7 +4,7 @@ import UseServices from "../../Hooks/use-services";
 import ServicesContext from '../../Context/ServicesContext'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Col} from "react-bootstrap";
-import {faGavel, faBriefcase, faBabyCarriage, faLandmark, faCar, faSchool, faPiggyBank, faBurger, faBriefcaseMedical, faFileSignature, faBuildingShield, faPersonMilitaryPointing, faSignHanging, faPassport, faWallet, faLightbulb, faEnvelopesBulk } from '@fortawesome/free-solid-svg-icons';
+import {faGavel, faBriefcase, faBabyCarriage, faLandmark, faCar, faSchool, faPiggyBank, faBurger, faBriefcaseMedical, faFileSignature, faBuildingShield, faPersonMilitaryPointing, faSignHanging, faPassport, faWallet, faLightbulb, faEnvelopesBulk, faHandHoldingHand, faPhotoFilm, faMapLocationDot} from '@fortawesome/free-solid-svg-icons';
 
 export default function ServiceComponent({service, idx}) {
   let {setShow, setServiceObj} = useContext(ServicesContext)
@@ -32,7 +32,11 @@ export default function ServiceComponent({service, idx}) {
         ['faPassport',faPassport],
         ['faWallet',faWallet],
         ['faLightbulb',faLightbulb],
-        ['faEnvelopesBulk',faEnvelopesBulk]
+        ['faEnvelopesBulk',faEnvelopesBulk],
+        ['faHandHoldingHand', faHandHoldingHand],
+        ['faPhotoFilm', faPhotoFilm],
+        ['faMapLocationDot', faMapLocationDot]
+
       ])
       
     
